@@ -8,7 +8,7 @@ const Home = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(400);
 
-    const textArray = ['Full Stack Developer', 'Software Engineer', 'Web Developer', 'Programmer'];
+    const textArray = ['Full Stack Developer', 'Software Engineer', 'Web Developer'];
     const switchSpeed = 400;
 
     useEffect(() => {

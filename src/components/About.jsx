@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                 <div>
                     <p>I am passionate about building software that improves the lives of those around me. 
-                        I am a Full Stack Developer with experience in Java (Spring, Spring Boot, Hibernate) and React. 
+                        I am a Full Stack Developer with 3 years of professional experience in Java (Spring, Spring Boot, Hibernate) and React. 
                         I am currently looking for a full-time position as a Software Engineer.</p>
                 </div>
             </div>
