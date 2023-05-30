@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a5e19ea0.css",
-    "main.js": "/static/js/main.e045469b.js",
+    "main.js": "/static/js/main.298fc10e.js",
     "static/media/car-license.jpg": "/static/media/car-license.bd6a581cbaac7567b143.jpg",
-    "static/media/gcn.jpg": "/static/media/gcn.ed8a61b2af660d8242ce.jpg",
     "static/media/wine.jpg": "/static/media/wine.4908949fe9e4560243db.jpg",
     "static/media/gnn.jpg": "/static/media/gnn.9fb8566a617b06695464.jpg",
     "static/media/music-genre.png": "/static/media/music-genre.aa8ed6341242c919031a.png",
@@ -18,10 +17,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.a5e19ea0.css.map": "/static/css/main.a5e19ea0.css.map",
-    "main.e045469b.js.map": "/static/js/main.e045469b.js.map"
+    "main.298fc10e.js.map": "/static/js/main.298fc10e.js.map"
   },
   "entrypoints": [
     "static/css/main.a5e19ea0.css",
-    "static/js/main.e045469b.js"
+    "static/js/main.298fc10e.js"
   ]
 }
