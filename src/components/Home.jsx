@@ -24,21 +24,25 @@ const Home = () => {
         let fullText = textArray[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
         setText(updatedText);
+
+        function sleep(milliseconds) {
+            const date = Date.now();
+            let currentDate = null;
+            do {
+              currentDate = Date.now();
+            } while (currentDate - date < milliseconds);
+        }
+        
+        // adds delay of 1 second after full text is typed
+        if (text === fullText) {
+            sleep(1000);
+        }
+
         if (isDeleting) {
             setTypingSpeed(prevSpeed => prevSpeed - 15);
         }
 
-        // function sleep(milliseconds) {
-        //     const date = Date.now();
-        //     let currentDate = null;
-        //     do {
-        //       currentDate = Date.now();
-        //     } while (currentDate - date < milliseconds);
-        // }
-
         if (!isDeleting && updatedText === fullText) {
-            // to do - add delay after typing full word
-                // sleep(1000);
                 setIsDeleting(true);
                 setTypingSpeed(switchSpeed);
         } else if (isDeleting && updatedText === '') {

@@ -3,7 +3,6 @@ import Wine from '../assets/projects/wine.jpg'
 import Car from '../assets/projects/car-license.jpg'
 import Music from '../assets/projects/music-genre.png'
 import GNN from '../assets/projects/gnn.jpg'
-import GCN from '../assets/projects/gcn.jpg'
 
 const Work = () => {
   return (
