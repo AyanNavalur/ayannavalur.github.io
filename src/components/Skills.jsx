@@ -19,10 +19,10 @@ const Skills = () => {
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto my-2' src={Spring} alt='Spring' />
                     <p className='my-4'>Java Spring</p>
-                </div>
+                </div> */}
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto my-2' src={HTML} alt='HTML' />
                     <p className='my-4'>HTML</p>

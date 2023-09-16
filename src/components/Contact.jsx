@@ -7,7 +7,7 @@ const Contact = () => {
   const [success, setSuccess] = useState(false)
 
   const onSubmit = async (data) => {
-    console.log(data);
+    // console.log(data);
 
     // Calling lambda function
     try {
@@ -21,7 +21,7 @@ const Contact = () => {
 
       // Handle the response from the Lambda function
       const res = await response.json();
-      console.log(res);
+      // console.log(res);
     } catch (error) {
       console.error('Error:', error);
     }

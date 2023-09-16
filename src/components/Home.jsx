@@ -8,7 +8,7 @@ const Home = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(400);
 
-    const textArray = ['Full Stack Developer', 'Software Engineer', 'Web Developer'];
+    const textArray = ['Data Engineer', 'Software Engineer', 'Data Analyst'];
     const switchSpeed = 400;
 
     useEffect(() => {
@@ -59,8 +59,8 @@ const Home = () => {
             <p className='text-pink-600'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Ayan Navalur</h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a {text}.</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a software engineer based in the NY/NJ area, specializing in building (and occasionally
-                designing) exceptional websites, applications, and everything in between.</p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a data engineer based in the NY/NJ area, specializing in building (and occasionally
+                designing) data pipelines, applications, and everything in between.</p>
             <div>
                 {/* Smooth Scrolling */}
                 <Link to="work" smooth={true} duration={500}>
