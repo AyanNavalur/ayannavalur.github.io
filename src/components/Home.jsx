@@ -60,7 +60,7 @@ const Home = () => {
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Ayan Navalur</h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a {text}.</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a data engineer based in the NY/NJ area, specializing in building (and occasionally
-                designing) data pipelines, applications, and everything in between.</p>
+                designing) applications, data pipelines, and everything in between.</p>
             <div>
                 {/* Smooth Scrolling */}
                 <Link to="work" smooth={true} duration={500}>

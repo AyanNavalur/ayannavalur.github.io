@@ -18,8 +18,8 @@ const About = () => {
                 </div>
                 <div>
                     <p>I am passionate about building software that improves the lives of those around me. 
-                        I am a Data Engineer with 4 years of professional experience working on various aspects of data engineering and analytics. 
-                        I am currently looking for a full-time position as a Data Engineer.</p>
+                        I am a Data Engineer with 3+ years of professional experience working on various aspects of data engineering and analytics. 
+                        I am currently looking for new opportunities in the Data Engineering field.</p>
                 </div>
             </div>
         </div>
