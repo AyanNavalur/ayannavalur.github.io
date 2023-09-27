@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6315ba8d.css",
-    "main.js": "/static/js/main.810e3b93.js",
+    "main.js": "/static/js/main.7613d24c.js",
     "static/media/car-license.jpg": "/static/media/car-license.bd6a581cbaac7567b143.jpg",
     "static/media/wine.jpg": "/static/media/wine.4908949fe9e4560243db.jpg",
     "static/media/gnn.jpg": "/static/media/gnn.9fb8566a617b06695464.jpg",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.6315ba8d.css.map": "/static/css/main.6315ba8d.css.map",
-    "main.810e3b93.js.map": "/static/js/main.810e3b93.js.map"
+    "main.7613d24c.js.map": "/static/js/main.7613d24c.js.map"
   },
   "entrypoints": [
     "static/css/main.6315ba8d.css",
-    "static/js/main.810e3b93.js"
+    "static/js/main.7613d24c.js"
   ]
 }
